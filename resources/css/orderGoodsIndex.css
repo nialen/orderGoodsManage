@@ -85,10 +85,12 @@
 	color: #fcfdff;
 }
 .img-bg .info .activity{
-	margin: 62px 0 0 156px;
+	width: 506px;
+	margin: 62px 0 0 74px;
 	line-height: 34px;
 	font-size: 16px;
 	color: #0053a5;
+	text-align: center;
 }
 /*中间背景图片*/
 
