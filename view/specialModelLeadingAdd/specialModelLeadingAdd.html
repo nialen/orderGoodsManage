@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>特种机型导入新增</title>
+    <link rel="stylesheet" href="../../resources/css/reset.css">
+    <link rel="stylesheet" href="../../resources/css/common.css">
+    <link rel="stylesheet" href="../../resources/css/specialModelLeadingAdd.css">
+</head>
+<body>
+	<!-- 顶部 -->
+	<div class="toper">
+		<div class="top-header fn-clear">
+			<img src="../../resources/images/small-logo.png" class="fn-left">
+			<ul class="iterms fn-left">
+				<li>订货会管理</li>
+				<li>产品管理</li>
+			</ul>
+			<div class="user fn-right">
+				<div class="select-info"><span class="name">运营商A先生，您好！</span><i class="iconfont">&#xe655;</i></div>
+				<a href="javasript:void(0)">退出</a>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部 -->
+	<!-- 头部切换 -->
+	<div class="header fn-clear">
+		<img src="../../resources/images/vivo-logo.png" class="fn-left">
+		<ul class="tab-change fn-right">
+			<li class="lifor">首页</li>
+			<li class="lifor on">
+				<span>机型管理</span>
+				<ul class="li-list">
+					<li>机型维护</li>
+					<li>特种机型分配</li>
+				</ul>
+			</li>
+			<li class="lifor">订单管理</li>
+			<li class="lifor">订金管理</li>
+			<li class="lifor">政策管理</li>
+			<li class="lifor">统计管理</li>
+		</ul>
+	</div>
+	<!-- 头部切换 -->
+	<!-- 中间背景图片 -->
+	<div class="img-bg">
+		<div class="info">
+			<p class="p-titl">2018夏季VIVO品牌新品订货会即将开启</p>
+			<div class="activity">
+				<p>活动日期：2018/04/10-2018/04/11</p>
+				<p>活动地址：XXX市XXXXXXXXX街XXX路XX号</p>
+			</div>
+		</div>
+	</div>
+	<!-- 中间背景图片 -->
+	
+	<div class="content">
+		<!-- 我的位置 -->
+		<div class="my-location">
+			<div class="location">
+				<label>我的位置： </label>
+				<p class="location-p">机型管理  > 特种机型分配  > <span class="red">导入新增</span></p>
+			</div>
+		</div>
+		<!-- 搜索 -->
+		<div class="search-cnt fn-clear">
+			<span class="wrds">上传文件：</span>
+			<p class="dao-ru">	
+				<span class="fn-left">XXXXX机型 . XLSX</span>
+				<label class="fn-left">浏览</label>			
+				<input type="file" class="file">
+			</p>
+			<button class="leading-btn">导入</button>
+			<button class="leading-btn load fn-right"><i class="iconfont">&#xe794;</i> 模板下载</button>
+		</div>
+
+		<div class="tabs-list">
+			<div class="order-titl fn-clear">
+				<div class="tel-model fn-left">导入结果</div>
+				<div class="result-wrds fn-right"> <span class="red">校验结果：</span>Excel中共有<b class="red">100</b>条数据，其中<b class="red">98</b>条校验通过有效，<b class="red">2</b>条校验不通过无效，点击提交可以导入正确信息。</div>
+			</div>
+			<table width="100%" cellspacing="0" cellpadding="0" class="table">
+				<thead>
+					<tr>
+						<th width="9%">终端编码</th>
+						<th width="15%">终端名称</th>
+						<th width="9%">终端品牌</th>
+						<th>终端型号</th>
+						<th width="6%">产品类型</th>
+						<th width="8%">供货商</th>
+						<th width="6%">终端价格</th>
+						<th width="6%">分配省份</th>
+						<th width="9%">分配量（台）</th>
+						<th width="6%">上架数量</th>
+						<th width="7%">校验结果</th>
+						<th width="7%">校验信息</th>						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>						
+						<td>11020300001</td>
+						<td><p class="overflow-handle">VIVO-X20全面屏 美颜拍照手机</p></td>
+						<td>VIVO</td>
+						<td>VIVO-X20</td>
+						<td>集采</td>
+						<td>集采</td>
+						<td>￥1890</td>
+						<td></td>
+						<td><b class="red">200</b></td>
+						<td>1890</td>
+						<td><i class="iconfont green">&#xe712;</i></td>
+						<td></td>
+					</tr>
+					<tr>						
+						<td>11020300001</td>
+						<td><p class="overflow-handle">VIVO-X20全面屏 美颜拍照手机</p></td>
+						<td>VIVO</td>
+						<td>VIVO-X20</td>
+						<td>集采</td>
+						<td>集采</td>
+						<td>￥1890</td>
+						<td>--</td>
+						<td><b class="red">200</b></td>
+						<td>1890</td>						
+						<td><i class="iconfont red">&#xe639;</i></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="bottom-btns">
+			<button class="confirm-btn">确定</button>
+			<button class="reset-btn">重置</button>
+		</div>
+	</div>
+	
+</body>
+</html>

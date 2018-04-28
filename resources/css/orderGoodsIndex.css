@@ -34,6 +34,7 @@
 	padding: 0 10px;
 }
 /*顶部*/
+
 /*头部切换*/
 .header{
 	width: 1200px;
@@ -46,7 +47,7 @@
 .tab-change{
 	margin-top: 26px;
 }
-.tab-change li{
+.tab-change .lifor{
 	position: relative;
 	float: left;
 	height: 45px;
@@ -55,10 +56,10 @@
 	font-size: 14px;
 	color: #000;
 }
-.tab-change li.on{
+.tab-change .lifor.on{
 	color: #ff0404;
 }
-.tab-change li.on:after{
+.tab-change .lifor.on:after{
 	position: absolute;
 	content: '';
 	left: 0;
@@ -67,7 +68,33 @@
 	height: 3px;
 	background: #ff0404;
 }
+.tab-change .lifor:hover .li-list{
+	display: block;
+}
+.tab-change .lifor .li-list{
+	position: absolute;
+	display: none;
+	left: -20%;
+	top: 46px;
+	width: 140%;
+	border: 1px solid #d9d9d9;
+	border-bottom: 0;
+	background: #f8f8f8;
+	color: #000;
+	box-shadow: 0px 0px 10px #bcbcbc;
+}
+.tab-change .lifor .li-list li{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+}
+.tab-change .lifor .li-list li:hover{
+	color: #fff;
+	background-color: #f13939;
+}
 /*头部切换*/
+
 /*中间背景图片*/
 .img-bg{
 	width: 100%;
