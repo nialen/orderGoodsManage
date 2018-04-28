@@ -105,7 +105,7 @@
 	width: 1036px;
 	height: 200px;
 	margin: 0 auto;
-	background: #e4273f url(../images/index-bg2.jpg) no-repeat right bottom;	
+	background: #e4273f url(../../resources/images/index-bg2.jpg) no-repeat right bottom;	
 	overflow: hidden;
 }
 .img-bg .info .p-titl{
@@ -331,7 +331,7 @@
 
 .tabs-list{
 	width: 1160px;
-	margin: 0 auto 70px;
+	margin: 0 auto;
 }
 .order-titl{
 	height: 28px;
@@ -341,7 +341,7 @@
 .order-titl .tel-model{
 	min-width: 5px;
 	min-height: 20px;
-	background: url(../images/red-line.png) no-repeat 0 center;
+	background: url(../../resources/images/red-line.png) no-repeat 0 center;
 	padding-left: 10px;
 	font-size: 18px;
 	color: #000;
@@ -380,10 +380,10 @@
 .table input[type=checkbox]{
 	width: 16px;
 	height: 16px;
-	background: url(../images/checkbox.png) no-repeat;
+	background: url(../../resources/images/checkbox.png) no-repeat;
 }
 .table input[type=checkbox]:checked{
-	background: url(../images/checkedbox.png) no-repeat;
+	background: url(../../resources/images/checkedbox.png) no-repeat;
 }
 .table tbody .td-first{
 	display: flex;
@@ -447,7 +447,7 @@
 	width: 218px;
 	height: 52px;
 	padding-top: 26px;
-	background: url(../images/smremind-pop.png) no-repeat;
+	background: url(../../resources/images/smremind-pop.png) no-repeat;
 }
 .table tbody .td-first .mj:hover .small-pop{
 	display: block;
@@ -460,7 +460,7 @@
 }
 .table .tel-href{
 	display: block;
-	margin: 15px 0 10px;
+	margin: 16px 0 12px;
 	font-size: 14px;
 	color: #050505;	
 	text-decoration: none;

@@ -111,7 +111,7 @@
 	width: 1036px;
 	height: 200px;
 	margin: 0 auto;
-	background: #e4273f url(../images/index-bg2.jpg) no-repeat right bottom;	
+	background: #e4273f url(../../resources/images/index-bg2.jpg) no-repeat right bottom;	
 	overflow: hidden;
 }
 .img-bg .info .p-titl{
@@ -223,7 +223,7 @@
 .order-titl .tel-model{
 	min-width: 5px;
 	min-height: 20px;
-	background: url(../images/red-line.png) no-repeat 0 center;
+	background: url(../../resources/images/red-line.png) no-repeat 0 center;
 	padding-left: 10px;
 	font-size: 18px;
 	color: #000;
@@ -279,8 +279,4 @@
 .bottom-btns .reset-btn{
 	margin-right: 0;
 }
-
-
-
-
 
