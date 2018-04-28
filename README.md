@@ -1,5 +1,7 @@
-### 工作汇报 work-report
-- 工作汇报提交 **workReprt**
-- 工作汇报查询 **workReprtQuery**
-- 周报详情 **workReportWeekDetail**
-- 月报详情 **workReportMonthDetail**
+**订货会**
+- 订货会首页 **orderGoodsIndex**
+- 机型管理 **modelManage**
+- 机型导入新增 **leadingInAddModel**
+- 机型导入删除 **leadingInDeleteModel**
+- 特种机型分配 **specialModelQuantumDefend**
+- 特种机型导入新增 **specialModelLeadingAdd**
