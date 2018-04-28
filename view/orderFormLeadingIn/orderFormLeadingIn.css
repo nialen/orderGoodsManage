@@ -149,7 +149,7 @@
 .search-cnt{
 	width: 1154px;
 	height: 70px;
-	margin: 20px auto;
+	margin: 20px auto 0;
 	line-height: 70px;
 	background-color: #fcfcfc;
 	font-size: 14px;
@@ -212,26 +212,20 @@
 }
 
 .tabs-list{
-	width: 1160px;
+	width: 1114px;
+	padding: 0 20px;
 	margin: 0 auto;
+	border: 1px solid #e8e8e8;
+	border-top: 0;
 }
 .order-titl{
-	height: 28px;
-	margin: 15px 0 8px;
-	line-height: 28px;
+	padding: 12px 0 10px;	
 }
-.order-titl .tel-model{
-	min-width: 5px;
-	min-height: 20px;
-	background: url(../../resources/images/red-line.png) no-repeat 0 center;
-	padding-left: 10px;
-	font-size: 18px;
+.order-titl .tel-model{	
+	margin-left: 2px;
+	font-size: 14px;
 	color: #000;
 	font-weight: 800;
-}
-.order-titl .result-wrds b{
-	font-size: 14px;
-	margin: 0 3px;
 }
 .table{
 	border: 1px solid #e3e3e3;
@@ -260,9 +254,18 @@
 .table td i.iconfont{
 	font-size: 18px;
 }
+.no-data{
+	height: 80px;
+	line-height: 80px;
+	border: 1px solid #e3e3e3;
+	border-top:0;
+	color: #f82134;
+	text-align: center;
+}
 
+/*底部按钮*/
 .bottom-btns{
-	margin-top: 40px;
+	margin: 16px 0;
 	text-align: center;
 }
 .bottom-btns button{
@@ -279,8 +282,7 @@
 .bottom-btns .reset-btn{
 	margin-right: 0;
 }
-
-
-
-
-
+.bottom-btns button.grey{
+	background-color: #cecece;
+	color: #9d9d9d;
+}

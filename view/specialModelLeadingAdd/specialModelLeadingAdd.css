@@ -261,6 +261,7 @@
 	font-size: 18px;
 }
 
+/*底部按钮*/
 .bottom-btns{
 	margin-top: 40px;
 	text-align: center;
@@ -278,4 +279,8 @@
 }
 .bottom-btns .reset-btn{
 	margin-right: 0;
+}
+.bottom-btns button.grey{
+	background-color: #cecece;
+	color: #9d9d9d;
 }
