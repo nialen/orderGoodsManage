@@ -225,6 +225,10 @@
 	color: #000;
 	font-weight: 800;
 }
+.order-titl .result-wrds b{
+	font-size: 14px;
+	margin: 0 3px;
+}
 .table{
 	border: 1px solid #e3e3e3;
 }
