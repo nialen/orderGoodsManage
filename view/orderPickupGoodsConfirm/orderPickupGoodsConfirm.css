@@ -163,8 +163,8 @@
 .tel-model{
 	height: 36px;
 	line-height: 36px;
-	background: url(../../resources/images/red-line.png) no-repeat 0 center;
-	padding-left: 10px;
+	background: url(../../resources/images/red-line.png) no-repeat 10px center;
+	padding-left: 20px;
 	font-size: 18px;
 	color: #000;
 	font-weight: 800;
@@ -174,15 +174,184 @@
 	padding: 15px;
 }
 .info-list-li{
-	margin-top: 12px;
+	margin-bottom: 15px;
+	padding-bottom: 12px;
 	border-bottom: 1px solid #d6d6d6;
 	color: #2b2020;
 	font-size: 12px;
 }
-.p-tit{
+.info-list-li:last-child{
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.info-list-li .p-tit{
 	color: #2b2020;
 	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 800;
 }
+.info-detail{
+	margin-left: 58px;
+}
+.detail-p{
+	display: inline-block;
+	line-height: 25px;
+}
+.wid33{
+	width: 33%;
+}
+.wid24{
+	width: 24%;
+}
+.table{
+	margin-top: 10px;
+	border: 1px solid #e0e0e0;
+}
+.table thead tr{
+	height: 36px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #e0e0e0;
+	color: #131212;
+}
+.table tbody tr{
+	height: 90px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.table thead tr th{
+	text-align: center;
+}
+.table tbody tr td{
+	text-align: center;
+}
+.table tbody .td-first{
+	display: flex;
+}
+.table tbody .td-first .p-img{
+	width: 79px;
+	height: 67px;
+	margin: 10px 15px 0 10px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	overflow: hidden;
+}
+.table tbody .td-first .tel-info{
+	flex: 1;
+	text-align: left;
+}
+.table tbody .td-first .tags{
+	position: relative;
+	display: flex;
+	margin-top: 10px;
+}
+.table tbody .td-first .tags span{
+	display: inline-block;
+	height: 18px;
+	padding: 0 4px;
+	line-height: 18px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+.table tbody .td-first .tags .sc{
+	background-color: #00b5b8;
+	border: 1px solid #00b5b8;
+	color: #fff;
+	margin-right: 3px;
+}
+.table tbody .td-first .tags .jc{
+	background-color: #e23a3a;
+	border: 1px solid #e23a3a;
+	color: #fff;
+	margin-right: 3px;
+}
+.table tbody .td-first .tags .mj{
+	position: relative;
+	border: 1px solid #e23a3a;
+	color:#e23a3a;
+	margin-right: 6px;
+}
+.table tbody .td-first .tags .spec{
+	padding: 0 2px;
+	border: 1px solid #ff982d;
+	background-color: #ff982d;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+}
+.table tbody .td-first .small-pop{
+	display: none;
+	position: absolute;
+	top: 14px;
+    left: -158px;
+	width: 218px;
+	height: 52px;
+	padding-top: 26px;
+	background: url(../../resources/images/smremind-pop.png) no-repeat;
+}
+.table tbody .td-first .mj:hover .small-pop{
+	display: block;
+}
+.table tbody .td-first .small-pop label{
+	display: block;
+	padding: 0 22px;
+	margin-bottom: 2px;
+	text-align: left;
+}
+.table .tel-href{
+	display: block;
+    margin: 16px 0 10px;
+    font-size: 14px;
+    color: #050505;
+    text-decoration: none;
+    line-height: 16px;
+    font-weight: 700;
+}
+.table .tel-href:hover{
+	color: #ed0000;
+	text-decoration: underline;
+}
+.table .tel-href.overflow-handle{
+	width: 96%;
+}
+.table .tel-info label{
+	color: #7d7d7d;
+}
+.order-num{
+	width: 1160px;
+	height: 75px;
+	border: 1px solid #ff223d;
+	background-color: #fff8ef;
+	margin: 23px auto;
+}
+.order-num input[type="text"]{
+	width: 153px;
+	height: 32px;
+	padding: 0 10px;
+	margin-top: 22px;
+	border: 1px solid #d5d5d5;
+}
+.order-num .wrds{
+	width: 102px;
+	line-height: 34px;
+	margin-top: 22px;
+	text-align: right;
+}
+.button{
+	height: 34px;
+	padding: 0 24px;
+	margin: 22px 0 0 22px;
+	border: 0;
+	font-size: 14px;
+	background-color: #f01919;
+	border-radius: 3px;
+	color: #fff;
+}
+.cancel-btn{
+	background-color: #ffd6d6;
+	color: #f01919;
+	border: 1px solid #f01919;
+}
+
+
 
 
 
