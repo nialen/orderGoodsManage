@@ -185,6 +185,90 @@
 	border: 1px solid #e52840;
 	border-radius: 3px;
 }
+.provin-edit{
+	width: 914px;
+	margin: 30px auto;
+}
+.select-deposit .sel-de-p{
+	position: relative;
+	width: 80px;
+	font-size: 12px;
+	text-align: center;
+}
+.select-deposit .sel-de-p label{
+	display: block;
+	margin: 0 auto;
+}
+.sel-de-p .wrds{
+	line-height: 26px;
+}
+.select-deposit .sel-de-p .iconfont{
+	font-size: 20px;
+}
+.select-deposit .dot{
+	width: 371px;
+	height: 11px;
+	margin: 6px -20px 0 -20px;
+	background: url(../../resources/images/dot-arrow.png) no-repeat;
+}
+.select-deposit .greydot{
+	width: 371px;
+	height: 11px;
+	margin: 6px -20px 0 -20px;
+	background: url(../../resources/images/dot-arrow-grey.png) no-repeat;
+}
+.select-deposit .sel-de-p .num{
+	width: 20px;
+	height: 20px;	
+	line-height: 20px;
+	background-color: #dedede;
+	font-size: 14px;
+	color: #727272;
+	text-align: center;
+	border-radius: 20px;
+}
+.select-deposit .sel-de-p .num .red{
+	color: #e52941;
+}
+.selections{
+	width: 496px;
+	margin: 86px auto 52px;
+	font-size: 14px;
+	color: #151515;
+}
+.select-wrds{
+	line-height: 34px;
+}
+.select-sp{
+	width: 114px;
+	height: 32px;
+	margin-left: 14px;
+	line-height: 32px;
+	border: 1px solid #b7b7b7;
+	text-align: center;
+	border-radius: 3px;
+}
+.select-sp.on{
+	border: 1px solid #f01d1d;
+	background: url(../../resources/images/selected-icon.png) right bottom no-repeat;
+	color: #f01d1d;
+}
+.bottom{
+	margin-top: 52px;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 25px;
+	text-align: center;
+}
+.button{
+	height: 34px;
+	padding: 0 30px;
+	margin: 22px 0 0 22px;
+	border: 0;
+	font-size: 14px;
+	background-color: #f01919;
+	border-radius: 3px;
+	color: #fff;
+}
 
 
 
