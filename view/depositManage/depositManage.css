@@ -185,7 +185,11 @@
 	border: 1px solid #e52840;
 	border-radius: 3px;
 }
+
 .provin-edit{
+	width: 100%;
+}
+.select-deposit{
 	width: 914px;
 	margin: 30px auto;
 }
@@ -198,6 +202,10 @@
 .select-deposit .sel-de-p label{
 	display: block;
 	margin: 0 auto;
+}
+.select-deposit .sel-de-p.red .num{
+	background-color: #e52941;
+	color: #fff;
 }
 .sel-de-p .wrds{
 	line-height: 26px;
@@ -227,12 +235,10 @@
 	text-align: center;
 	border-radius: 20px;
 }
-.select-deposit .sel-de-p .num .red{
-	color: #e52941;
-}
+
 .selections{
 	width: 496px;
-	margin: 86px auto 52px;
+	margin: 60px auto 42px;
 	font-size: 14px;
 	color: #151515;
 }
@@ -254,7 +260,7 @@
 	color: #f01d1d;
 }
 .bottom{
-	margin-top: 52px;
+	margin-top: 26px;
 	border-top: 1px solid #dcdcdc;
 	padding-top: 25px;
 	text-align: center;
@@ -262,7 +268,143 @@
 .button{
 	height: 34px;
 	padding: 0 30px;
-	margin: 22px 0 0 22px;
+	border: 0;
+	font-size: 14px;
+	background-color: #f01919;
+	border-radius: 3px;
+	color: #fff;
+}
+
+/* 第二步 */
+.second-step .info{
+	width: 1154px;
+	height: 38px;
+	margin: 0 auto;
+	border: 1px solid #e8e8e8;
+	background-color: #fcfcfc;
+	line-height: 38px;
+}
+.tabs-list{
+	width: 1118px;
+	margin: 0 auto;
+	padding: 12px 18px 20px;
+	border: 1px solid #e8e8e8;
+	border-top:0;
+}
+.second-step .info p{
+	width: calc(50% - 94px);
+	margin-left: 94px;
+}
+.order-titl{
+	height: 28px;
+	margin: 0 0 8px;
+	line-height: 28px;
+}
+.order-titl .tel-model{
+	min-width: 5px;
+	min-height: 20px;
+	background: url(../../resources/images/red-line.png) no-repeat 0 center;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 800;
+}
+.order-titl .result-wrds b{
+	font-size: 14px;
+	margin: 0 3px;
+}
+.table{
+	border: 1px solid #e3e3e3;
+}
+.table thead tr{
+	height: 32px;
+	background-color: #efefef;
+	border-bottom: 1px solid #d1d1d1;
+	color: #131212;
+}
+.table thead tr th{
+	text-align: center;
+	border-right: 1px solid #d1d1d1;
+}
+.table tbody tr{
+	height: 34px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.table tbody tr td{
+	text-align: center;
+	border-right: 1px solid #e3e3e3;
+}
+.table tbody tr:nth-of-type(2n){
+	background-color: #fcfcfc;
+}
+.table td i.iconfont{
+	font-size: 18px;
+}
+.table tbody tr td input{
+	width: 80%;
+	height: 20px;
+	border: 1px solid #b3b3b3;
+	text-align: center;
+	color: #f02b2b;
+}
+/*底部按钮*/
+.bottom-btns{
+	margin-top: 20px;
+	text-align: center;
+}
+.bottom-btns button{
+	height: 34px;
+	padding: 0 32px;
+	margin-right: 32px;
+	background-color: #f01919;
+	line-height: 34px;
+	border: 0;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+}
+.bottom-btns .reset-btn{
+	margin-right: 0;
+}
+.bottom-btns button.grey{
+	background-color: #cecece;
+	color: #9d9d9d;
+}
+
+/* 第三步 */
+.third-step{
+	width: 1028px;
+	height: 168px;
+	margin: 98px auto;
+	border: 1px solid #e4f0e7;
+	background-color: #f5fff8;
+}
+.success{
+	width: 450px;
+	margin: 16px auto 0;
+}
+.success .suc-img{
+	margin-right: 16px;
+}
+.success .wrds .p1{
+	margin: 20px 0 14px 0;
+	font-size: 16px;
+}
+.success .wrds .p2{
+	margin: 0 0 20px 0;
+	font-size: 12px;
+}
+.success .wrds .p2 span{
+	margin-left: 6px;
+}
+.success .wrds .p2 a{
+	margin-left: 6px;
+	margin-right: 4px;
+	text-decoration: underline;
+}
+.button{
+	height: 34px;
+	padding: 0 10px;
 	border: 0;
 	font-size: 14px;
 	background-color: #f01919;
